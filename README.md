@@ -76,99 +76,99 @@ The following table compares leading commercial and SaaS file synchronization pl
 
 ## 🔓 Open-Source GitHub Projects
 
-The following open-source file synchronization projects are sorted in descending order by **GitHub Star Count**. Click on any star badge to view stargazers directly.
+The following open-source file synchronization projects are sorted in descending order by **GitHub Stars_Count**. Click on any Stars_Badge to view stargazers directly.
 
-1. ### 🌟 [Syncthing](https://github.com/syncthing/syncthing) [![GitHub stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers)
+1. ### 🌟 [Syncthing](https://github.com/syncthing/syncthing) [![GitHub_Stars](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers)
    - **Architecture**: Decentralized Peer-to-Peer (Block Exchange Protocol - BEP).
    - **License**: MPL-2.0 | **Language**: Go.
    - **Overview**: The gold standard in open-source continuous file synchronization. Synchronizes files in real time between two or more computers over local networks or across the internet via encrypted TLS connections. No central server or third-party account required; devices authenticate via unique cryptographic Device IDs.
    - **Strengths**: True P2P architecture, automated local discovery, encrypted relay fallback for strict NATs, granular folder send/receive modes, and robust file versioning (trash can, staggered, external).
 
-2. ### 🌟 [rclone](https://github.com/rclone/rclone) [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
+2. ### 🌟 [rclone](https://github.com/rclone/rclone) [![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers)
    - **Architecture**: Multi-Backend Cloud & Local Synchronization CLI.
    - **License**: MIT | **Language**: Go.
    - **Overview**: Revered as "the Swiss army knife of cloud storage," `rclone` syncs directory trees between local filesystems and over 70 cloud storage providers (S3, Google Drive, Backblaze B2, Dropbox, OneDrive, SFTP, WebDAV, etc.).
    - **Strengths**: Supports one-way mirror (`sync`), true bidirectional synchronization (`bisync`), on-the-fly encryption (`crypt`), bandwidth throttling, multi-threaded chunked transfers, and virtual filesystem mounting (`rclone mount`).
 
-3. ### 🌟 [Nextcloud Server](https://github.com/nextcloud/server) [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
+3. ### 🌟 [Nextcloud Server](https://github.com/nextcloud/server) [![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
    - **Architecture**: Self-Hosted Client-Server Cloud Synchronization Suite.
    - **License**: AGPL-3.0 | **Language**: PHP / JavaScript.
    - **Overview**: The leading open-source self-hosted content collaboration and synchronization platform. Provides full desktop and mobile sync clients that continuously reconcile local folders with your personal or enterprise cloud instance.
    - **Strengths**: Comprehensive ecosystem featuring on-demand virtual file sync (Windows/macOS/Linux), collaborative document editing, fine-grained access control lists, server-side encryption, and federation across distinct Nextcloud instances.
 
-4. ### 🌟 [Seafile](https://github.com/haiwen/seafile) [![GitHub stars](https://img.shields.io/github/stars/haiwen/seafile?style=social&color=white)](https://github.com/haiwen/seafile/stargazers)
+4. ### 🌟 [Seafile](https://github.com/haiwen/seafile) [![GitHub_Stars](https://img.shields.io/github/stars/haiwen/seafile?style=social&color=white)](https://github.com/haiwen/seafile/stargazers)
    - **Architecture**: Chunk-Based Block-Level Client-Server Sync.
    - **License**: GPL-2.0 | **Language**: C / Python.
    - **Overview**: An enterprise-grade, high-performance file sync and sharing system designed around Git-like block-level version control. Files are partitioned into cryptographic blocks before transmission, optimizing speed and deduplication.
    - **Strengths**: Exceptional sync performance with millions of small files, low server CPU/memory footprint, virtual drive client (Seadrive) for browsing multi-terabyte libraries without downloading, and built-in library encryption.
 
-5. ### 🌟 [ownCloud Core](https://github.com/owncloud/core) [![GitHub stars](https://img.shields.io/github/stars/owncloud/core?style=social&color=white)](https://github.com/owncloud/core/stargazers)
+5. ### 🌟 [ownCloud Core](https://github.com/owncloud/core) [![GitHub_Stars](https://img.shields.io/github/stars/owncloud/core?style=social&color=white)](https://github.com/owncloud/core/stargazers)
    - **Architecture**: Modular Self-Hosted File Sync and Share.
    - **License**: AGPL-3.0 | **Language**: PHP.
    - **Overview**: Foundational self-hosted file sharing and synchronization platform allowing users to establish private sync endpoints on on-premises storage or S3 targets. (Note: Modern high-concurrency deployments frequently adopt [ownCloud Infinite Scale - ocis](https://github.com/owncloud/ocis) written in Go).
    - **Strengths**: Mature desktop and mobile sync ecosystem, WebDAV integration, spaces-based storage architecture, and OAuth2 security integration.
 
-6. ### 🌟 [lsyncd](https://github.com/lsyncd/lsyncd) [![GitHub stars](https://img.shields.io/github/stars/lsyncd/lsyncd?style=social&color=white)](https://github.com/lsyncd/lsyncd/stargazers)
+6. ### 🌟 [lsyncd](https://github.com/lsyncd/lsyncd) [![GitHub_Stars](https://img.shields.io/github/stars/lsyncd/lsyncd?style=social&color=white)](https://github.com/lsyncd/lsyncd/stargazers)
    - **Architecture**: Event-Driven Daemon with Inotify & Rsync.
    - **License**: GPL-2.0 | **Language**: C / Lua.
    - **Overview**: Live Syncing Daemon (`lsyncd`) monitors a local directory tree for filesystem event triggers using Linux `inotify` or BSD `kqueue`, aggregates change bursts for several seconds, and invokes `rsync` or custom scripts to synchronize targets.
    - **Strengths**: Ultra-low overhead, prevents rsync thrashing on high-write systems, perfectly suited for live mirror nodes, failover web servers, and local-to-remote mirror automation.
 
-7. ### 🌟 [Unison](https://github.com/bcpierce00/unison) [![GitHub stars](https://img.shields.io/github/stars/bcpierce00/unison?style=social&color=white)](https://github.com/bcpierce00/unison/stargazers)
+7. ### 🌟 [Unison](https://github.com/bcpierce00/unison) [![GitHub_Stars](https://img.shields.io/github/stars/bcpierce00/unison?style=social&color=white)](https://github.com/bcpierce00/unison/stargazers)
    - **Architecture**: True Bidirectional Two-Replica Reconciler.
    - **License**: GPL-3.0 | **Language**: OCaml.
    - **Overview**: A rigorous, mathematically proven bidirectional file synchronizer for Unix, macOS, and Windows. Unlike simple mirroring tools, Unison tracks modifications made on *both* replicas simultaneously and propagates non-conflicting changes automatically.
    - **Strengths**: Exact conflict detection with interactive diff resolution, resilient operation over SSH tunnels, delta-compression transfer algorithms, and atomic cross-platform symlink/permission handling.
 
-8. ### 🌟 [rsync](https://github.com/RsyncProject/rsync) [![GitHub stars](https://img.shields.io/github/stars/RsyncProject/rsync?style=social&color=white)](https://github.com/RsyncProject/rsync/stargazers)
+8. ### 🌟 [rsync](https://github.com/RsyncProject/rsync) [![GitHub_Stars](https://img.shields.io/github/stars/RsyncProject/rsync?style=social&color=white)](https://github.com/RsyncProject/rsync/stargazers)
    - **Architecture**: Rolling-Checksum Delta-Transfer Engine.
    - **License**: GPL-3.0 | **Language**: C.
    - **Overview**: The industry-standard Unix utility for lightning-fast incremental file transfers. Utilizes the Andrew Tridgell rolling-hash algorithm to compute and transfer only modified chunks within existing files across networks.
    - **Strengths**: Ubiquitous availability across POSIX systems, SSH transport security, recursive directory mirroring, preserve attributes (`perms`, `times`, `owner`, `ACLs`), and daemon mode.
 
-9. ### 🌟 [Mutagen](https://github.com/mutagen-io/mutagen) [![GitHub stars](https://img.shields.io/github/stars/mutagen-io/mutagen?style=social&color=white)](https://github.com/mutagen-io/mutagen/stargazers)
+9. ### 🌟 [Mutagen](https://github.com/mutagen-io/mutagen) [![GitHub_Stars](https://img.shields.io/github/stars/mutagen-io/mutagen?style=social&color=white)](https://github.com/mutagen-io/mutagen/stargazers)
    - **Architecture**: Real-Time Bidirectional Sync & Forwarding for Containers.
    - **License**: MIT | **Language**: Go.
    - **Overview**: Engineered specifically for high-velocity remote development. Mutagen synchronizes local code workspaces to remote servers, Docker containers, Kubernetes pods, or virtual machines in real time.
    - **Strengths**: Sub-second synchronization latency, efficient dual-scan filesystem monitoring, automatic conflict reconciliation heuristics, and concurrent TCP/UNIX socket network forwarding.
 
-10. ### 🌟 [Celeste](https://github.com/hwittenborn/celeste) [![GitHub stars](https://img.shields.io/github/stars/hwittenborn/celeste?style=social&color=white)](https://github.com/hwittenborn/celeste/stargazers)
+10. ### 🌟 [Celeste](https://github.com/hwittenborn/celeste) [![GitHub_Stars](https://img.shields.io/github/stars/hwittenborn/celeste?style=social&color=white)](https://github.com/hwittenborn/celeste/stargazers)
     - **Architecture**: Desktop GUI Multi-Cloud Sync Client.
     - **License**: GPL-3.0 | **Language**: Rust / GTK4.
     - **Overview**: A modern, sleek desktop graphical synchronization client built with Rust and GTK4. Bridges local desktop folders to multiple cloud providers (Google Drive, Nextcloud, Dropbox, WebDAV) via an intuitive single-window GUI.
     - **Strengths**: Native Linux and cross-platform desktop integration, fast memory-safe Rust core, and two-way file tracking.
 
-11. ### 🌟 [Warpinator](https://github.com/linuxmint/warpinator) [![GitHub stars](https://img.shields.io/github/stars/linuxmint/warpinator?style=social&color=white)](https://github.com/linuxmint/warpinator/stargazers)
+11. ### 🌟 [Warpinator](https://github.com/linuxmint/warpinator) [![GitHub_Stars](https://img.shields.io/github/stars/linuxmint/warpinator?style=social&color=white)](https://github.com/linuxmint/warpinator/stargazers)
     - **Architecture**: Local Area Network (LAN) Peer Sync.
     - **License**: GPL-3.0 | **Language**: Python.
     - **Overview**: Developed by the Linux Mint team, Warpinator enables ad-hoc file synchronization and peer-to-peer sending across local network computers without requiring internet connectivity or third-party servers.
     - **Strengths**: Zero-config mDNS device discovery, TLS-encrypted data transit, pin-code pairing authentication, and mobile companion clients for Android/iOS.
 
-12. ### 🌟 [SymmetricDS](https://github.com/jumpmindinc/symmetric-ds) [![GitHub stars](https://img.shields.io/github/stars/jumpmindinc/symmetric-ds?style=social&color=white)](https://github.com/jumpmindinc/symmetric-ds/stargazers)
+12. ### 🌟 [SymmetricDS](https://github.com/jumpmindinc/symmetric-ds) [![GitHub_Stars](https://img.shields.io/github/stars/jumpmindinc/symmetric-ds?style=social&color=white)](https://github.com/jumpmindinc/symmetric-ds/stargazers)
     - **Architecture**: Multi-Tier Asynchronous Database & File Replication.
     - **License**: GPL-3.0 | **Language**: Java.
     - **Overview**: Web-enabled, database-agnostic data and file synchronization engine designed to scale across thousands of retail nodes, branch offices, and distributed IoT gateways over intermittent WANs.
     - **Strengths**: Bi-directional data and file synchronization, payload compression, automated conflict resolution strategies, bandwidth management, and guaranteed delivery.
 
-13. ### 🌟 [SMBSync2](https://github.com/Sentaroh/SMBSync2) [![GitHub stars](https://img.shields.io/github/stars/Sentaroh/SMBSync2?style=social&color=white)](https://github.com/Sentaroh/SMBSync2/stargazers)
+13. ### 🌟 [SMBSync2](https://github.com/Sentaroh/SMBSync2) [![GitHub_Stars](https://img.shields.io/github/stars/Sentaroh/SMBSync2?style=social&color=white)](https://github.com/Sentaroh/SMBSync2/stargazers)
     - **Architecture**: Mobile SMB/Samba Automated Sync Utility.
     - **License**: Apache-2.0 | **Language**: Kotlin / Java.
     - **Overview**: Dedicated Android file synchronization tool that connects smartphones and tablets to Windows PCs, Samba shares, and NAS servers over local Wi-Fi using SMB v1/v2/v3 protocols.
     - **Strengths**: Mirror, Move, and Copy synchronization modes, flexible scheduling (Wi-Fi SSID triggers, tasker automation, charging state), and SD card/USB storage support.
 
-14. ### 🌟 [Bita](https://github.com/oll3/bita) [![GitHub stars](https://img.shields.io/github/stars/oll3/bita?style=social&color=white)](https://github.com/oll3/bita/stargazers)
+14. ### 🌟 [Bita](https://github.com/oll3/bita) [![GitHub_Stars](https://img.shields.io/github/stars/oll3/bita?style=social&color=white)](https://github.com/oll3/bita/stargazers)
     - **Architecture**: Differential HTTP-Based Chunked Synchronization.
     - **License**: MIT / Apache-2.0 | **Language**: Rust.
     - **Overview**: High-speed differential file synchronization tool inspired by `casync` and `zsync`. Encodes files into content-defined chunk archives and differential metadata, fetching only changed chunks over standard HTTP/HTTPS range requests.
     - **Strengths**: Seamless compatibility with standard CDNs and static object storage (S3), content-defined chunking (FastCDC), compression, and parallel chunk verification.
 
-15. ### 🌟 [ByteSync](https://github.com/POW-Software/ByteSync) [![GitHub stars](https://img.shields.io/github/stars/POW-Software/ByteSync?style=social&color=white)](https://github.com/POW-Software/ByteSync/stargazers)
+15. ### 🌟 [ByteSync](https://github.com/POW-Software/ByteSync) [![GitHub_Stars](https://img.shields.io/github/stars/POW-Software/ByteSync?style=social&color=white)](https://github.com/POW-Software/ByteSync/stargazers)
     - **Architecture**: End-to-End Encrypted Remote & Local Sync.
     - **License**: GPL-3.0 | **Language**: C#.
     - **Overview**: Multi-platform file synchronization, backup, and deduplication tool engineered to sync computers across networks without port forwarding, firewalls reconfiguration, or VPN tunnels.
     - **Strengths**: End-to-end zero-knowledge encryption, delta-copy differential transfers, block deduplication, and graphical session inventory inspection before synchronizing.
 
-16. ### 🌟 [Ouisync](https://github.com/equalitie/ouisync) [![GitHub stars](https://img.shields.io/github/stars/equalitie/ouisync?style=social&color=white)](https://github.com/equalitie/ouisync/stargazers)
+16. ### 🌟 [Ouisync](https://github.com/equalitie/ouisync) [![GitHub_Stars](https://img.shields.io/github/stars/equalitie/ouisync?style=social&color=white)](https://github.com/equalitie/ouisync/stargazers)
     - **Architecture**: Decentralized P2P Offline-First Sync.
     - **License**: GPL-3.0 | **Language**: Rust / C++.
     - **Overview**: Built by eQualit.ie to safeguard freedom of information and counter internet censorship. Uses a peer-to-peer BitTorrent/dht-inspired substrate to sync files across mobile and desktop devices without central servers or public IP addresses.
@@ -219,7 +219,7 @@ Contributions are warmly welcomed! Help keep this directory current, objective, 
 3. 📝 **Add or update an entry**:
    - Provide project name, official URL, license, and primary architecture.
    - For SaaS products, include exact starting pricing and free tier/trial limits.
-   - For open-source repos, insert the social star badge linking to `/stargazers`.
+   - For open-source repos, insert the social Stars_Badge linking to `/stargazers`.
 4. 🧪 **Verify link integrity and formatting**: Ensure all markdown links resolve correctly.
 5. 🚀 **Submit a Pull Request** with a clear explanation of the addition.
 
