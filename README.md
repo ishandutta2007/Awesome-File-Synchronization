@@ -4,11 +4,12 @@
 
 # ⚡ Awesome File Synchronization 🔄
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-File-Synchronization/pulls)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-File-Synchronization/graphs/commit-activity)
-[![Topics](https://img.shields.io/badge/Keywords-File--Sync%20%7C%20P2P%20%7C%20Self--Hosted-orange.svg?style=flat-square)](#-key-features--architectures)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-blue.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-File-Synchronization/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-File-Synchronization/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" alt="Maintenance" /></a>
+<a href="#-synchronization-architectures--selection-matrix"><img src="https://img.shields.io/badge/Keywords-File--Sync%20%7C%20P2P%20%7C%20Self--Hosted-orange.svg?style=flat-square" alt="Topics" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 **The definitive curated directory of high-performance file synchronization engines, peer-to-peer (P2P) data replication tools, continuous mirroring utilities, and enterprise cloud sync platforms.**
 
@@ -39,6 +40,8 @@
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🏗️ Synchronization Architectures & Selection Matrix](#-synchronization-architectures--selection-matrix)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [⭐ Star History](#--star-history)
 - [⚠️ Disclaimer & Data Safety](#️-disclaimer--data-safety)
 
 ---
@@ -219,6 +222,28 @@ Contributions are warmly welcomed! Help keep this directory current, objective, 
    - For open-source repos, insert the social star badge linking to `/stargazers`.
 4. 🧪 **Verify link integrity and formatting**: Ensure all markdown links resolve correctly.
 5. 🚀 **Submit a Pull Request** with a clear explanation of the addition.
+
+---
+
+## 💖 Support & Community
+
+Thank you for checking out and using this curated directory of file synchronization platforms and tools! Maintaining high-quality, up-to-date benchmarks and architecture comparisons for the open-source and developer community takes continuous effort.
+
+If this repository has helped you or your team optimize your data replication and sync workflows, please consider supporting the project:
+- ⭐ **Star this repository** to boost visibility and help more engineers discover it.
+- 🍴 **Fork & Contribute** by submitting new tools, architectural insights, or updates.
+- 📢 **Share** this resource with your colleagues, DevOps teams, and on developer communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing development and maintenance, visit the Sponsor Dashboard:
+
+  <a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" /></a>
+
+  👉 **[Sponsor Dashboard on GitHub](https://github.com/sponsors/ishandutta2007)**
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-File-Synchronization&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-File-Synchronization&type=date&legend=top-left)
 
 ---
 
